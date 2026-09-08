@@ -6,8 +6,7 @@
 
 ---
 
-![A modern data center interior at night, rows of server racks stretching into depth with a transparent display showing flowing data visualizations. The environment captures the industrial scale behind frontier AI systems.](images/hero.jpg)
-*The infrastructure behind frontier AI has become one of the largest capital investments in technology history. What runs on that infrastructure is changing faster than the buildings can be built.*
+![ChatGPT 6 Astra key art: a polished reflective sphere resting on wet rock above a mountain valley at sunrise, ringed by a thin arc of light, with the tagline "Intelligence that moves with you" and the sequence Observe, Reason, Plan, Act, Learn.](images/hero.jpg)
 
 ---
 
@@ -318,7 +317,7 @@ This is why OpenAI delayed aspects of the launch and implemented enhanced safegu
 - **Blocking alignment evaluation** before internal deployment
 - **Restricted access** to advanced cybersecurity capabilities through the "Daybreak" program
 
-![A dark control room with a wall of monitors showing system dashboards, security alerts, and monitoring feeds. Amber and red indicator lights create dramatic contrast against blue screens. An emergency stop mechanism sits in the foreground.](images/editorial-03.jpg)
+![GPT-6 Astra key art: a telescope on a stack of books titled Bigger Questions, Deeper Answers and A Brighter Tomorrow, facing a window onto a starlit mountain valley, with an open notebook reading "A more capable, a more helpful, a more autonomous. Together." and the tagline "Further Together".](images/editorial-03.jpg)
 *The tension between AI capability and human oversight is no longer theoretical. Monitoring systems designed for this moment are now operational — but the question of whether monitoring is sufficient remains open.*
 
 ### Why Greater Autonomy Creates New Risks
