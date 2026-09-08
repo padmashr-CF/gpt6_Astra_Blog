@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body { background: #0a0a0a; color: #fff; font-family: -apple-system, sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+.container { width: 800px; padding: 40px; background: #111; border-radius: 12px; }
+h2 { margin: 0 0 5px 0; font-size: 28px; }
+.sub { color: #888; font-size: 14px; margin-bottom: 30px; }
+.row { margin-bottom: 20px; }
+.label { font-size: 15px; margin-bottom: 8px; font-weight: 500; }
+.bar-container { display: flex; align-items: center; margin-bottom: 6px; }
+.model { width: 60px; font-size: 13px; color: #aaa; }
+.track { flex: 1; background: #222; height: 24px; border-radius: 4px; margin-right: 15px; display: flex; }
+.fill { height: 100%; border-radius: 4px; display: flex; align-items: center; justify-content: flex-end; padding-right: 10px; font-size: 13px; font-weight: bold; }
+.astra { background: #4A9EFF; }
+.claude { background: #FF6B35; }
+.gemini { background: #00C853; }
+.nodata { background: repeating-linear-gradient(45deg, #1c1c1c, #1c1c1c 6px, #232323 6px, #232323 12px); color: #666; font-weight: 500 !important; justify-content: flex-start !important; padding-left: 10px; }
+.source { margin-top: 30px; font-size: 12px; color: #666; border-top: 1px solid #333; padding-top: 15px; }
+.legend { display: flex; gap: 15px; margin-bottom: 20px; }
+.leg-item { display: flex; align-items: center; font-size: 13px; }
+.leg-color { width: 12px; height: 12px; border-radius: 2px; margin-right: 6px; }
+</style>
+</head>
+<body>
+<div class="container">
+<h2>Frontier Model Comparison (September 2026)</h2>
+<div class="sub">Performance across agentic tasks</div>
+<div class="legend">
+  <div class="leg-item"><div class="leg-color" style="background:#4A9EFF;"></div>Astra</div>
+  <div class="leg-item"><div class="leg-color" style="background:#FF6B35;"></div>Claude Fable 5.1 / Opus 5</div>
+  <div class="leg-item"><div class="leg-color" style="background:#00C853;"></div>Gemini 3.8 Flash</div>
+</div>
+<div class="row"><div class="label">Terminal-Bench 4.0</div><div class="bar-container"><div class="model">Astra</div><div class="track"><div class="fill astra" style="width: 57.9%;">57.9%</div></div></div><div class="bar-container"><div class="model">Fable 5.1</div><div class="track"><div class="fill claude" style="width: 55.8%;">55.8%</div></div></div><div class="bar-container"><div class="model">Gemini</div><div class="track"><div class="fill gemini" style="width: 19.1%;">19.1%</div></div></div></div><div class="row"><div class="label">Agents' Last Exam</div><div class="bar-container"><div class="model">Astra</div><div class="track"><div class="fill astra" style="width: 59.3%;">59.3%</div></div></div><div class="bar-container"><div class="model">Opus 5</div><div class="track"><div class="fill claude" style="width: 55.5%;">55.5%</div></div></div><div class="bar-container"><div class="model">Gemini</div><div class="track"><div class="fill nodata" style="width: 100%;">not published</div></div></div></div><div class="row"><div class="label">OSWorld 2.0</div><div class="bar-container"><div class="model">Astra</div><div class="track"><div class="fill astra" style="width: 72.6%;">72.6%</div></div></div><div class="bar-container"><div class="model">Opus 5</div><div class="track"><div class="fill claude" style="width: 70.2%;">70.2%</div></div></div><div class="bar-container"><div class="model">Gemini</div><div class="track"><div class="fill gemini" style="width: 59%;">59.0%</div></div></div></div><div class="row"><div class="label">ScreenSpot-Pro</div><div class="bar-container"><div class="model">Astra</div><div class="track"><div class="fill astra" style="width: 92.7%;">92.7%</div></div></div><div class="bar-container"><div class="model">Fable 5.1</div><div class="track"><div class="fill claude" style="width: 87.3%;">87.3%</div></div></div><div class="bar-container"><div class="model">Gemini</div><div class="track"><div class="fill nodata" style="width: 100%;">not published</div></div></div></div><div class="row"><div class="label">DeepSWE v1.1</div><div class="bar-container"><div class="model">Astra</div><div class="track"><div class="fill astra" style="width: 74.1%;">74.1%</div></div></div><div class="bar-container"><div class="model">Fable 5.1</div><div class="track"><div class="fill claude" style="width: 67.4%;">67.4%</div></div></div><div class="bar-container"><div class="model">Gemini</div><div class="track"><div class="fill gemini" style="width: 73.7%;">73.7%</div></div></div></div><div class="row"><div class="label">Humanity's Last Exam (with tools)</div><div class="bar-container"><div class="model">Astra</div><div class="track"><div class="fill astra" style="width: 57.2%;">57.2%</div></div></div><div class="bar-container"><div class="model">Fable 5.1</div><div class="track"><div class="fill claude" style="width: 65%;">65.0%</div></div></div><div class="bar-container"><div class="model">Gemini</div><div class="track"><div class="fill nodata" style="width: 100%;">not published</div></div></div></div><div class="source">Sources: OpenAI launch charts (Astra, Fable 5.1, Opus 5); Google and the public Terminal-Bench leaderboard (Gemini 3.8 Flash), September 2026.<br>Caveat: cross-vendor scores come from different harnesses and effort settings. Bars marked "not published" have no comparable figure — they are not zeros. Note the last row: Astra <em>trails</em> Claude Fable 5.1 on Humanity's Last Exam.</div>
+</div></body></html>

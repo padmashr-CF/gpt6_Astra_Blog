@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" style="background:#0a0a0a; font-family:sans-serif;">
+  <rect width="100%" height="100%" fill="#0a0a0a"/>
+  
+  <g transform="translate(100, 100)">
+    <rect x="0" y="0" width="120" height="50" rx="8" fill="#222" stroke="#4A9EFF" stroke-width="2"/>
+    <text x="60" y="30" fill="#fff" font-size="14" font-weight="bold" text-anchor="middle">GOAL</text>
+    
+    <path d="M 120 25 L 170 25" stroke="#fff" stroke-width="2" fill="none"/>
+    <polygon points="160,20 170,25 160,30" fill="#fff"/>
+    
+    <rect x="170" y="0" width="120" height="50" rx="8" fill="#111" stroke="#888" stroke-width="2"/>
+    <text x="230" y="30" fill="#fff" font-size="14" font-weight="bold" text-anchor="middle">PLANNING</text>
+    
+    <path d="M 290 25 L 340 25" stroke="#fff" stroke-width="2" fill="none"/>
+    <polygon points="330,20 340,25 330,30" fill="#fff"/>
+    
+    <rect x="340" y="0" width="140" height="50" rx="8" fill="#111" stroke="#888" stroke-width="2"/>
+    <text x="410" y="30" fill="#fff" font-size="14" font-weight="bold" text-anchor="middle">TOOL SELECTION</text>
+
+    <path d="M 480 25 L 530 25" stroke="#fff" stroke-width="2" fill="none"/>
+    <polygon points="520,20 530,25 520,30" fill="#fff"/>
+
+    <rect x="530" y="0" width="120" height="50" rx="8" fill="#111" stroke="#888" stroke-width="2"/>
+    <text x="590" y="30" fill="#fff" font-size="14" font-weight="bold" text-anchor="middle">EXECUTION</text>
+
+    <path d="M 650 25 L 700 25" stroke="#fff" stroke-width="2" fill="none"/>
+    <polygon points="690,20 700,25 690,30" fill="#fff"/>
+
+    <rect x="700" y="0" width="140" height="50" rx="8" fill="#111" stroke="#888" stroke-width="2"/>
+    <text x="770" y="30" fill="#fff" font-size="14" font-weight="bold" text-anchor="middle">OBSERVATION</text>
+
+    <path d="M 770 50 L 770 120" stroke="#fff" stroke-width="2" fill="none"/>
+    <polygon points="765,110 770,120 775,110" fill="#fff"/>
+    
+    <polygon points="770,120 830,150 770,180 710,150" fill="#222" stroke="#FF6B35" stroke-width="2"/>
+    <text x="770" y="145" fill="#fff" font-size="12" font-weight="bold" text-anchor="middle">ERROR</text>
+    <text x="770" y="160" fill="#fff" font-size="12" font-weight="bold" text-anchor="middle">DETECTED?</text>
+    
+    <path d="M 710 150 L 590 150" stroke="#FF6B35" stroke-width="2" fill="none"/>
+    <polygon points="600,145 590,150 600,155" fill="#FF6B35"/>
+    <text x="650" y="140" fill="#FF6B35" font-size="12" text-anchor="middle">YES</text>
+    
+    <rect x="470" y="125" width="120" height="50" rx="8" fill="#222" stroke="#FF6B35" stroke-width="2"/>
+    <text x="530" y="155" fill="#fff" font-size="14" font-weight="bold" text-anchor="middle">RECOVERY</text>
+    
+    <path d="M 530 125 L 530 50" stroke="#FF6B35" stroke-width="2" fill="none"/>
+    <polygon points="525,60 530,50 535,60" fill="#FF6B35"/>
+    
+    <path d="M 770 180 L 770 250" stroke="#00C853" stroke-width="2" fill="none"/>
+    <polygon points="765,240 770,250 775,240" fill="#00C853"/>
+    <text x="785" y="215" fill="#00C853" font-size="12">NO</text>
+    
+    <rect x="710" y="250" width="120" height="50" rx="8" fill="#111" stroke="#888" stroke-width="2"/>
+    <text x="770" y="280" fill="#fff" font-size="14" font-weight="bold" text-anchor="middle">VERIFICATION</text>
+    
+    <path d="M 710 275 L 650 275" stroke="#fff" stroke-width="2" fill="none"/>
+    <polygon points="660,270 650,275 660,280" fill="#fff"/>
+    
+    <polygon points="590,245 650,275 590,305 530,275" fill="#222" stroke="#4A9EFF" stroke-width="2"/>
+    <text x="590" y="280" fill="#fff" font-size="12" font-weight="bold" text-anchor="middle">PASSED?</text>
+    
+    <path d="M 530 275 L 430 275" stroke="#00C853" stroke-width="2" fill="none"/>
+    <polygon points="440,270 430,275 440,280" fill="#00C853"/>
+    <text x="480" y="265" fill="#00C853" font-size="12" text-anchor="middle">YES</text>
+    
+    <rect x="290" y="250" width="140" height="50" rx="8" fill="#1f4068" stroke="#4A9EFF" stroke-width="2"/>
+    <text x="360" y="280" fill="#fff" font-size="14" font-weight="bold" text-anchor="middle">FINAL RESULT</text>
+    
+    <path d="M 590 245 L 590 195" stroke="#FF6B35" stroke-width="2" fill="none"/>
+    <polygon points="585,205 590,195 595,205" fill="#FF6B35"/>
+    <text x="605" y="225" fill="#FF6B35" font-size="12">NO</text>
+    
+    <rect x="530" y="170" width="120" height="25" rx="4" fill="transparent" stroke="transparent"/>
+    
+    <path d="M 590 195 L 290 195" stroke="#FF6B35" stroke-width="2" fill="none"/>
+    <polygon points="300,190 290,195 300,200" fill="#FF6B35"/>
+    
+    <rect x="170" y="170" width="120" height="50" rx="8" fill="#222" stroke="#FF6B35" stroke-width="2"/>
+    <text x="230" y="200" fill="#fff" font-size="14" font-weight="bold" text-anchor="middle">RE-PLAN</text>
+    
+    <path d="M 170 195 L 140 195 L 140 25 L 170 25" stroke="#FF6B35" stroke-width="2" fill="none"/>
+    <polygon points="160,20 170,25 160,30" fill="#FF6B35"/>
+  </g>
+</svg>

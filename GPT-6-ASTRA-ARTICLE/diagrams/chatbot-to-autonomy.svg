@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" style="background:#0a0a0a; font-family:sans-serif;">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#333;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A9EFF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#0a0a0a"/>
+  
+  <g transform="translate(400, 80)">
+    <rect x="-150" y="0" width="300" height="60" rx="8" fill="#222" stroke="#444" stroke-width="2"/>
+    <text x="0" y="25" fill="#fff" font-size="16" font-weight="bold" text-anchor="middle">CHATBOT (2022)</text>
+    <text x="0" y="45" fill="#888" font-size="12" text-anchor="middle">Pattern matching, single-turn responses</text>
+    
+    <path d="M 0 60 L 0 100" stroke="#444" stroke-width="3" fill="none" />
+    <polygon points="-5,90 5,90 0,100" fill="#444"/>
+    
+    <rect x="-150" y="110" width="300" height="60" rx="8" fill="#2a2a2a" stroke="#555" stroke-width="2"/>
+    <text x="0" y="135" fill="#fff" font-size="16" font-weight="bold" text-anchor="middle">ASSISTANT (2023–2024)</text>
+    <text x="0" y="155" fill="#888" font-size="12" text-anchor="middle">Multi-turn, context-aware help</text>
+    
+    <path d="M 0 170 L 0 210" stroke="#666" stroke-width="3" fill="none"/>
+    <polygon points="-5,200 5,200 0,210" fill="#666"/>
+    
+    <rect x="-150" y="220" width="300" height="60" rx="8" fill="#1f4068" stroke="#4A9EFF" stroke-width="2"/>
+    <text x="0" y="245" fill="#fff" font-size="16" font-weight="bold" text-anchor="middle">AGENT (2025)</text>
+    <text x="0" y="265" fill="#aaa" font-size="12" text-anchor="middle">Tool use, code execution, planning</text>
+    
+    <path d="M 0 280 L 0 320" stroke="#4A9EFF" stroke-width="3" fill="none"/>
+    <polygon points="-5,310 5,310 0,320" fill="#4A9EFF"/>
+    
+    <rect x="-175" y="330" width="350" height="80" rx="8" fill="url(#grad1)" stroke="#4A9EFF" stroke-width="3"/>
+    <text x="0" y="360" fill="#fff" font-size="18" font-weight="bold" text-anchor="middle">AUTONOMOUS SYSTEM (2026)</text>
+    <text x="0" y="385" fill="#fff" font-size="13" text-anchor="middle">Goal pursuit, computer use, error recovery, self-direction</text>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body { background: #0a0a0a; color: #fff; font-family: -apple-system, sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+.container { width: 800px; padding: 40px; background: #111; border-radius: 12px; position: relative; }
+h2 { margin: 0 0 5px 0; font-size: 28px; }
+.sub { color: #888; font-size: 14px; margin-bottom: 40px; }
+.chart-area { width: 100%; height: 400px; position: relative; border-left: 2px solid #333; border-bottom: 2px solid #333; margin-bottom: 30px; }
+.y-label { position: absolute; left: -40px; top: 50%; transform: translateY(-50%) rotate(-90deg); color: #888; font-size: 12px; letter-spacing: 1px; }
+.x-label { position: absolute; bottom: -30px; left: 50%; transform: translateX(-50%); color: #888; font-size: 12px; letter-spacing: 1px; }
+.grid-line { position: absolute; background: #222; }
+.grid-x { width: 100%; height: 1px; }
+.grid-y { height: 100%; width: 1px; }
+.point { position: absolute; border-radius: 50%; transform: translate(-50%, 50%); display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,0.8); }
+.point-astra { background: rgba(74, 158, 255, 0.8); border: 2px solid #4A9EFF; width: 60px; height: 60px; bottom: 76%; left: 72%; }
+.point-claude { background: rgba(255, 107, 53, 0.8); border: 2px solid #FF6B35; width: 50px; height: 50px; bottom: 62%; left: 80%; }
+.point-gemini { background: rgba(0, 200, 83, 0.8); border: 2px solid #00C853; width: 80px; height: 80px; bottom: 34%; left: 66%; }
+.point-label { position: absolute; top: -25px; white-space: nowrap; font-size: 13px; color: #ddd; }
+.point-claude .point-label { top: auto; bottom: -25px; }
+.note { font-size: 12px; color: #666; font-style: italic; line-height: 1.6; }
+</style>
+</head>
+<body>
+<div class="container">
+<h2>The Frontier AI Landscape</h2>
+<div class="sub">Mapping intelligence against agentic autonomy</div>
+<div class="chart-area">
+  <div class="y-label">AGENTIC AUTONOMY</div>
+  <div class="x-label">RAW INTELLIGENCE</div>
+  
+  <div class="grid-line grid-x" style="bottom: 25%;"></div>
+  <div class="grid-line grid-x" style="bottom: 50%;"></div>
+  <div class="grid-line grid-x" style="bottom: 75%;"></div>
+  
+  <div class="grid-line grid-y" style="left: 25%;"></div>
+  <div class="grid-line grid-y" style="left: 50%;"></div>
+  <div class="grid-line grid-y" style="left: 75%;"></div>
+  
+  <div class="point point-astra"><div class="point-label">GPT-6 Astra</div></div>
+  <div class="point point-claude"><div class="point-label">Claude Fable 5.1</div></div>
+  <div class="point point-gemini"><div class="point-label">Gemini 3.8 Flash</div></div>
+</div>
+<div class="note">Circle size represents approximate cost-efficiency (larger = more cost-efficient). Positions are a qualitative summary, not measured coordinates.<br>
+Astra and Fable 5.1 sit close together on reasoning: Fable 5.1 leads on Humanity's Last Exam (65.0% vs 57.2% with tools) and on the Artificial Analysis Intelligence Index v4.1.1 (65.7 vs 61.2), though the revised v4.3 index ties them at 53. Gemini 3.8 Flash is placed lower on autonomy — Terminal-Bench 4.0 19.1%, OSWorld 2.0 59.0% — but is near-parity on raw reasoning (GPQA Diamond 95.3% vs Astra's 96.0%), so its horizontal position understates it.</div>
+</div></body></html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>X Evidence Card - Sam Altman Launch</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0a0a0a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; }
+  .evidence-card { background: #16181c; border: 1px solid #2f3336; border-radius: 16px; max-width: 550px; width: 100%; padding: 24px; }
+  .card-label { display: inline-block; background: #1d4ed8; color: #fff; font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 4px 10px; border-radius: 4px; margin-bottom: 16px; }
+  .account-row { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+  .avatar { width: 48px; height: 48px; border-radius: 50%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700; font-size: 18px; }
+  .account-info .name { color: #e7e9ea; font-weight: 700; font-size: 15px; }
+  .account-info .handle { color: #71767b; font-size: 14px; }
+  .verified { display: inline-block; width: 18px; height: 18px; background: #1d9bf0; border-radius: 50%; position: relative; margin-left: 4px; vertical-align: middle; }
+  .verified::after { content: '✓'; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); color: #fff; font-size: 11px; font-weight: 700; }
+  .post-text { color: #e7e9ea; font-size: 16px; line-height: 1.5; margin-bottom: 16px; }
+  .post-date { color: #71767b; font-size: 13px; margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid #2f3336; }
+  .source-row { display: flex; justify-content: space-between; align-items: center; }
+  .source-label { color: #71767b; font-size: 12px; }
+  .source-link { color: #1d9bf0; font-size: 12px; text-decoration: none; }
+  .disclaimer { color: #71767b; font-size: 11px; margin-top: 16px; padding-top: 12px; border-top: 1px solid #2f3336; font-style: italic; }
+</style>
+</head>
+<body>
+<div class="evidence-card">
+  <span class="card-label">✕ Evidence Card — Verified Claim</span>
+  <div class="account-row">
+    <div class="avatar">SA</div>
+    <div class="account-info">
+      <div class="name">Sam Altman <span class="verified"></span></div>
+      <div class="handle">@sama</div>
+    </div>
+  </div>
+  <div class="post-text">
+    "GPT-6 Astra is here. We hope it will begin to enable a new generation of entrepreneurship, scientific discovery, and building."
+  </div>
+  <div class="post-date">September 3, 2026</div>
+  <div class="source-row">
+    <span class="source-label">Verified via: Multiple news outlets (YourStory, India Today, Economic Times)</span>
+  </div>
+  <div class="disclaimer">
+    This is an evidence card reproducing a verified public statement, not a screenshot. The original post can be found on Sam Altman's verified X account (@sama).
+  </div>
+</div>
+</body>
+</html>

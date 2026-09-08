@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" style="background:#0a0a0a; font-family:sans-serif;">
+  <rect width="100%" height="100%" fill="#0a0a0a"/>
+  
+  <text x="450" y="80" fill="#fff" font-size="32" font-weight="bold" text-anchor="middle">Why Intelligence Alone ≠ AGI</text>
+  
+  <g transform="translate(100, 150)">
+    <!-- Pillar 1 -->
+    <rect x="0" y="0" width="200" height="300" rx="10" fill="#111" stroke="#4A9EFF" stroke-width="2"/>
+    <text x="100" y="40" fill="#4A9EFF" font-size="18" font-weight="bold" text-anchor="middle">CAPABILITY</text>
+    <text x="100" y="65" fill="#888" font-size="12" text-anchor="middle">(Can it solve the problem?)</text>
+    <line x1="20" y1="90" x2="180" y2="90" stroke="#333" stroke-width="1"/>
+    
+    <text x="30" y="130" fill="#ddd" font-size="14">• Reasoning</text>
+    <text x="30" y="170" fill="#ddd" font-size="14">• Coding</text>
+    <text x="30" y="210" fill="#ddd" font-size="14">• Math</text>
+    <text x="30" y="250" fill="#ddd" font-size="14">• Science</text>
+    
+    <!-- Pillar 2 -->
+    <rect x="250" y="0" width="200" height="300" rx="10" fill="#111" stroke="#FF6B35" stroke-width="2"/>
+    <text x="350" y="40" fill="#FF6B35" font-size="18" font-weight="bold" text-anchor="middle">AUTONOMY</text>
+    <text x="350" y="65" fill="#888" font-size="12" text-anchor="middle">(Can it work independently?)</text>
+    <line x1="270" y1="90" x2="430" y2="90" stroke="#333" stroke-width="1"/>
+    
+    <text x="280" y="130" fill="#ddd" font-size="14">• Planning</text>
+    <text x="280" y="170" fill="#ddd" font-size="14">• Tool Use</text>
+    <text x="280" y="210" fill="#ddd" font-size="14">• Error Recovery</text>
+    <text x="280" y="250" fill="#ddd" font-size="14">• Persistence</text>
+    
+    <!-- Pillar 3 -->
+    <rect x="500" y="0" width="200" height="300" rx="10" fill="#111" stroke="#00C853" stroke-width="2"/>
+    <text x="600" y="40" fill="#00C853" font-size="18" font-weight="bold" text-anchor="middle">RELIABILITY</text>
+    <text x="600" y="65" fill="#888" font-size="12" text-anchor="middle">(Can you trust it?)</text>
+    <line x1="520" y1="90" x2="680" y2="90" stroke="#333" stroke-width="1"/>
+    
+    <text x="530" y="130" fill="#ddd" font-size="14">• Accuracy</text>
+    <text x="530" y="170" fill="#ddd" font-size="14">• Safety</text>
+    <text x="530" y="210" fill="#ddd" font-size="14">• Alignment</text>
+    <text x="530" y="250" fill="#ddd" font-size="14">• Consistency</text>
+  </g>
+  
+  <text x="450" y="500" fill="#aaa" font-size="14" text-anchor="middle">AGI requires all three. Current systems excel at capability, show promise in autonomy, and remain limited in reliability.</text>
+</svg>
