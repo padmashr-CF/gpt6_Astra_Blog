@@ -1,7 +1,5 @@
 # GPT-6 Astra Article — Verified Sources
 
-**Sourcing principle used in this article:** unless explicitly labelled otherwise, all competitor comparison scores (GPT-5.6 Sol, Claude Fable 5.1, Claude Opus 5, Gemini 3.8 Flash) are **OpenAI's own published figures** from its launch materials. They are a vendor's self-reported comparisons on evaluations it selected and ran, not independent verification. Only the ARC Prize Foundation and Artificial Analysis entries below represent genuinely third-party measurement.
-
 ## Tier 1: Official OpenAI Documentation
 
 1. **OpenAI GPT-6 Astra Announcement**
@@ -105,32 +103,3 @@
     - Date: September 7, 2026
     - Verified: "Astra has successfully beat all 48 levels of the 'I'm Not a Robot' game"
     - **Affiliation disclosure: Sharif Shameem works on OpenAI's Labs team (sharif.io).** This is a capability showcase from inside OpenAI, not an independent test. The game is Neal Agarwal's CAPTCHA *parody* on neal.fun, not a production bot-detection system.
-
-## Corrections Log (applied September 8, 2026)
-
-The following errors were found during fact-check and corrected across the article, CSV, charts and evidence cards:
-
-- **ARC-AGI-3 comparison scores** — had Sol at ~85% and Fable 5.1 at ~90%. Actual: **Sol 7.8%, Opus 5 30.2%.**
-- **ARC-AGI-3 harness explanation** — had described OpenAI's harness as granting "tools, iterative reasoning, and extended compute time." Actual difference is opaque-state preservation; the 99.9% run was *cheaper and faster* than the 62.7% run.
-- **OSWorld 2.0** — Sol had "~50%" (actual **65.7%**), competitor "~60%" (actual **Opus 5 70.2%**). Astra's lead is 2.4 points, not ~12.
-- **FrontierMath T4** — Sol had "~70%" (actual **83%**); competitor marked "not directly comparable" when **Fable 5.1 87.8%** and **Opus 5 73.2%** are published alongside.
-- **ScreenSpot-Pro** — Sol "~75%" → **76.9%**; competitor "~85%" → **Fable 5.1 87.3%**.
-- **Four "Not reported" cells** were populated: AutomationBench (Sol 18.1, Fable 31.4, Opus 26.9), HealthBench Prof. (Sol 60.5, Fable 5 60.9, Fable 5.1 56.6, Opus 54.5), ExploitBench (Sol 78.5, competitor 70), Browser-Agent Bench (Opus 5 50.5).
-- **Gemini series in chart 2** — Terminal-Bench shown at ~45% (actual **19.1%**), OSWorld ~55% (actual **59.0%**); ScreenSpot-Pro and Agents' Last Exam figures had no published basis and were removed.
-- **September 4 availability** — the article stated Astra "became broadly available" on Sept 4; it did not, which is why Altman apologized that day.
-- **Sharif Shameem** — described as an independent "developer"; he is an OpenAI Labs employee. Demo date corrected from "within 72 hours" to September 7. X handle corrected from `@ShasrifsI`.
-- **"A taste of AGI"** — attributed to OpenAI; it is a third-party blog title. Replaced with Greg Brockman's sourced remarks.
-- **Zero-days** — listed under "What We Don't Know"; the system card specifies **two**, in **V8**, disclosed to maintainers.
-- **Architecture/compute** — listed as undisclosed; recurrent depth and the >100,000 GPU run are public.
-- **BenchLM** — cited as an independent evaluator; it is an aggregator that republishes vendor-reported figures.
-- **Artificial Analysis / Emergent** — two distinct organizations, previously conflated.
-- **Terminal-Bench 4.0 (57.9%)** — investigated and **retained**. Sources genuinely disagree (57.7 vs 57.9 vs 58.18 vs 59.1); the disagreement is now disclosed in the article rather than resolved silently.
-- **HTML build** — was missing the Browser-Agent Bench table row present in the Markdown; restored.
-- **`chatbot-to-autonomy.svg`** — label read "ASSISTANT (2023)" against the article's "(2023–2024)".
-
-## Outstanding Items
-
-- `article/gpt6-astra-final.docx` has **not** been regenerated and still contains the pre-correction text. Re-export from the corrected Markdown or HTML before distribution.
-- The ExploitBench 70% competitor score is attributed to Fable 5.1 by Vellum and to Opus 5 by OfficeChai. Unresolved; flagged in-article.
-- Astra's ARC-AGI-3 headline is reported as 99.9% by ARC Prize and 98.6% by The New Stack. Unresolved; flagged in-article.
-- "Browser-Agent Bench" has no stable public specification. Informally called "Browser Use Benchmark v2" in early coverage.
